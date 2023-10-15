@@ -1,9 +1,10 @@
+import Tetris from './components/Tetris'
 import './App.css'
 
 const App: React.FC = () => {
   return (
     <>
-      <h1>tetris</h1>
+      <Tetris />
     </>
   )
 }
